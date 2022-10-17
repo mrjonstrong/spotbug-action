@@ -3,7 +3,6 @@ description: 'runs spotbugs'
 author: '@mrjonstrong'
 runs:
   using: "composite"
-  runs-on: ubuntu-latest
   steps:
     - run: echo "Running spotbugs"
       shell: bash
